@@ -14,6 +14,7 @@ def main():
     num_words = count_words(book_text)
     character_counts = count_characters(book_text)
     sortedlist = sort_char_count(character_counts)
+    print(f"Char count: {sortedlist}")
     print_report(book_path, num_words, sortedlist)
 
 
